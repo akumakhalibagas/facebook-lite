@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "118647028362",
+    "firebase_url": "https://aplikacation-post.firebaseio.com",
+    "project_id": "aplikacation-post",
+    "storage_bucket": "aplikacation-post.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118647028362:android:4c54918b1ed1c382d8cb73",
+        "android_client_info": {
+          "package_name": "com.makhalibagas.applicationpost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118647028362-podm1scjhu5i4kj7e67irsvi7qrhaj0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR0ha23378DvYB1hQF2PnnwR-EtqaYAOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118647028362-podm1scjhu5i4kj7e67irsvi7qrhaj0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

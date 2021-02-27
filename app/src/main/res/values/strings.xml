@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Salam Paceebok</string>
+
+    <string name="hello_user">Salam Paceebok</string>
+    <string name="name">Makhalibagas</string>
+    <string name="textPost">Hallo semua, izin share hasil explorasi yang aku buat yah yaitu apliksi github user. makasih semoga bermanfaat.</string>
+    <string name="timePost">24 hours ago</string>
+    <string name="textComment">Hallo makhalibagas, How are you?</string>
+    <string name="post">Makhalibagas Post</string>
+    <string name="hintEdit">Type here to comment post</string>
+    <string name="p">p</string>
+    <string name="PREF">MY_SHARED</string>
+    <string name="KEY">KEY</string>
+    <string name="COMMENT">EXTRA_COMMENT</string>
+
+</resources>

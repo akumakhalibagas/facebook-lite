@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorMain"
+    android:fillViewport="false"
+    tools:context=".ui.fragment.MenuFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/bagas"
+                android:layout_marginTop="6dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/imageUser"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageUser"
+                android:textSize="14sp"
+                android:text="Bagas Makhali"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/tvNameUser"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/imageUser"
+                app:layout_constraintTop_toBottomOf="@id/tvNameUser"
+                android:textSize="14sp"
+                android:text="View Main Profile"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/viewMain"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <Button
+            android:id="@+id/btFriend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friend"
+            android:onClick="onClick"
+            android:layout_margin="12dp"/>
+
+        <Button
+            android:id="@+id/btPostLke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Like"
+            android:onClick="onClick"
+            android:layout_margin="12dp"/>
+
+        <Button
+            android:id="@+id/btSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:onClick="onClick"
+            android:layout_margin="12dp"/>
+
+        <Button
+            android:id="@+id/btLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:onClick="onClick"
+            android:layout_margin="12dp"/>
+
+        <Button
+            android:id="@+id/btPrivasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privasi Paceebok"
+            android:onClick="onClick"
+            android:layout_margin="12dp"/>
+
+        <Button
+            android:id="@+id/btAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Paceebok"
+            android:onClick="onClick"
+            android:layout_margin="12dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_margin="12dp"
+            android:onClick="onClick"
+            android:id="@+id/btOut"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

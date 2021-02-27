@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.activity.UploadStoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tambah gambar"
+        android:layout_gravity="center"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgStory"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:id="@+id/etEditStory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_post"
+        android:layout_margin="12dp"
+        android:layout_gravity="bottom"
+        android:hint="Type story"
+        android:paddingStart="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Now"
+        android:background="@drawable/shape_background"
+        android:fontFamily="@font/captura_black"
+        android:textColor="@android:color/white"
+        android:padding="6dp"
+        android:layout_gravity="end"
+        android:layout_margin="12dp"
+        android:id="@+id/shareNow"/>
+
+</FrameLayout>
